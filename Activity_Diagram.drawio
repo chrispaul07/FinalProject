@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T02:04:48.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HRW69AfoPN33Z2wLRRC1" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T02:07:19.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="82r7PCQ9vR5CL6_VQAxG" version="20.5.1" type="github">
   <diagram id="2UHYjlr3IB_9Z2jb9_0N" name="Page-1">
     <mxGraphModel dx="942" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,28 +8,28 @@
           <mxGeometry x="241" y="325" width="345" height="520" as="geometry" />
         </mxCell>
         <mxCell id="PMXdnqWy6KDKmBKf0Zv8-2" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fillColor=#000000;strokeWidth=3;strokeColor=#FAFAFA;" vertex="1" parent="1">
-          <mxGeometry x="280" y="960" width="80" height="80" as="geometry" />
+          <mxGeometry x="254" y="985" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PMXdnqWy6KDKmBKf0Zv8-3" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fillColor=#000000;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="870" width="80" height="80" as="geometry" />
+          <mxGeometry x="254" y="905" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PMXdnqWy6KDKmBKf0Zv8-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="920" as="sourcePoint" />
-            <mxPoint x="470" y="920" as="targetPoint" />
+            <mxPoint x="354" y="930" as="sourcePoint" />
+            <mxPoint x="424" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PMXdnqWy6KDKmBKf0Zv8-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="999.5" as="sourcePoint" />
-            <mxPoint x="470" y="999.5" as="targetPoint" />
+            <mxPoint x="354" y="1009.5" as="sourcePoint" />
+            <mxPoint x="424" y="1009.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PMXdnqWy6KDKmBKf0Zv8-6" value="Camera live/Image Input" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FAFAFA;strokeWidth=0;fontFamily=Helvetica;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="880" width="120" height="60" as="geometry" />
+        <mxCell id="PMXdnqWy6KDKmBKf0Zv8-6" value="Camera live/Image Input" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="453" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PMXdnqWy6KDKmBKf0Zv8-7" value="Cloud Mobile Application&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FAFAFA;strokeWidth=0;fontFamily=Helvetica;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="PMXdnqWy6KDKmBKf0Zv8-7" value="Cloud Mobile Application&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="454" y="980" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
