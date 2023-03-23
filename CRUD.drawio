@@ -1,11 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T06:34:52.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kqVJPSRLkwPJsRzJ8VKa" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T06:50:55.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="81_1K2qOTJSC4Z6uROC0" version="21.0.10" type="github">
   <diagram name="Page-1" id="TK_UhNAvCGLo8-jz-sQq">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="apaRClghpj3u5-84oaar-6" value="CRUD Operations" style="swimlane;startSize=0;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="360" y="280" width="120" height="100" as="geometry" />
+        <mxCell id="apaRClghpj3u5-84oaar-41" value="Login Module" style="swimlane;startSize=0;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="500" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-36" value="User Authorization" style="swimlane;startSize=0;align=center;verticalAlign=bottom;" vertex="1" parent="apaRClghpj3u5-84oaar-41">
+          <mxGeometry x="110" y="40" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="apaRClghpj3u5-84oaar-36">
+          <mxGeometry x="20" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userFemale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="apaRClghpj3u5-84oaar-36">
+          <mxGeometry x="155" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-39" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/nuvola2/48x48/actions/kgpg_identity.png" vertex="1" parent="apaRClghpj3u5-84oaar-36">
+          <mxGeometry x="126" y="55.5" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-40" value="Token Allocation" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.token_service;" vertex="1" parent="apaRClghpj3u5-84oaar-41">
+          <mxGeometry x="220" y="230" width="60" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-50" value="Master Modules" style="swimlane;startSize=0;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="610" height="390" as="geometry">
+            <mxRectangle x="130" y="510" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-6" value="CRUD Operations" style="swimlane;startSize=0;align=center;verticalAlign=bottom;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="200" y="130" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="apaRClghpj3u5-84oaar-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" vertex="1" parent="apaRClghpj3u5-84oaar-6">
           <mxGeometry x="21.789999999999992" y="15" width="30" height="30" as="geometry" />
@@ -18,6 +41,47 @@
         </mxCell>
         <mxCell id="apaRClghpj3u5-84oaar-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.delete;" vertex="1" parent="apaRClghpj3u5-84oaar-6">
           <mxGeometry x="71.78999999999999" y="55" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-9" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="170" />
+              <mxPoint x="200" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-9" value="Appointments" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="10" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-10" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-10" value="Users" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="470" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.35;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-11" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-11" value="Profiles" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="10" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-12" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-12" value="Doctors" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="470" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-13" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-13" value="Pets" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="10" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="apaRClghpj3u5-84oaar-50" source="apaRClghpj3u5-84oaar-14" target="apaRClghpj3u5-84oaar-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apaRClghpj3u5-84oaar-14" value="Pet Owners" style="html=1;whiteSpace=wrap;" vertex="1" parent="apaRClghpj3u5-84oaar-50">
+          <mxGeometry x="470" y="50" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
